@@ -1,66 +1,13 @@
-<!DOCTYPE html>
-<html lang="uz">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mening Professional Portfoliom</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
-<body class="bg-gray-50 text-gray-900 font-sans">
+<div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition cursor-pointer" onclick="turtleXabari()">
+    <div class="p-6 text-center">
+        <i class="fas fa-biohazard text-4xl text-green-500 mb-4"></i>
+        <h3 class="text-xl font-bold mb-2">Turtle Graphics</h3>
+        <p class="text-gray-600">Mening chizgan shakllarimni ko'rish uchun bosing.</p>
+    </div>
+</div>
 
-    <nav class="bg-white shadow-lg sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <div class="text-2xl font-bold text-blue-600">DevStudent</div>
-                <div class="hidden md:flex space-x-8 font-medium">
-                    <a href="#home" class="hover:text-blue-500 transition">Asosiy</a>
-                    <a href="#about" class="hover:text-blue-500 transition">Men haqimda</a>
-                    <a href="#projects" class="hover:text-blue-500 transition">Loyihalar</a>
-                    <a href="#contact" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition">Bog'lanish</a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <section id="home" class="py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center">
-        <div class="max-w-4xl mx-auto px-6">
-            <h1 class="text-5xl font-extrabold mb-6">Salom, men bo'lajak dasturchiman!</h1>
-            <p class="text-xl mb-8 opacity-90">Python, Turtle grafikasi va Veb-texnologiyalarni o'rganmoqdaman.</p>
-            <a href="#projects" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-bold text-lg shadow-xl hover:scale-105 transition transform">Ishlarimni ko'ring</a>
-        </div>
-    </section>
-
-    <section id="projects" class="py-20 max-w-6xl mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center mb-12">Mening loyihalarim</h2>
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition">
-                <div class="p-6">
-                    <i class="fas fa-biohazard text-4xl text-green-500 mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Turtle Graphics</h3>
-                    <p class="text-gray-600">Python yordamida matematik shakllar va spirallar chizish loyihasi.</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition">
-                <div class="p-6">
-                    <i class="fas fa-code text-4xl text-blue-500 mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Web Design</h3>
-                    <p class="text-gray-600">HTML va Tailwind CSS yordamida zamonaviy saytlar yaratish.</p>
-                </div>
-            </div>
-            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-2xl transition">
-                <div class="p-6">
-                    <i class="fas fa-calculating text-4xl text-purple-500 mb-4"></i>
-                    <h3 class="text-xl font-bold mb-2">Matematik Grafiklar</h3>
-                    <p class="text-gray-600">Giperbola va boshqa funksiyalarni vizuallashtirish dasturi.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-gray-800 text-white py-10 text-center">
-        <p>&copy; 2026 Barcha huquqlar himoyalangan. | Ustoz va Shogird loyihasi</p>
-    </footer>
-
-</body>
-</html>
+<script>
+    function turtleXabari() {
+        alert("Tabriklayman! Turtle loyihasi tez orada shu yerda paydo bo'ladi. Hozircha Python-dagi Turtle kodlaringizni rasmga olib, saytga joylashtirishimiz mumkin!");
+    }
+</script>
